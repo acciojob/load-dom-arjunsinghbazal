@@ -1,4 +1,3 @@
-//your JS code here. If required.
-function onLoad() {
-  console.log("DOM load success");
-}
+window.onload = (event) => {
+    document.querySelector("body").innerHTML="DOM load success";
+  };
